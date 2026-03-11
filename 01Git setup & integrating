@@ -7,33 +7,33 @@ To install Git on Ubuntu
 sudo apt update
 sudo apt install git -y
 ```
-![Git installation](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/fig1.png?raw=true)
+![Git installation](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/fig1.png)
 
 ## 2. SSH Key Generation
 Generate a new SSH key to securely connect to GitHub without typing your password every time:
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
-![ssh key gen](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshgen.png?raw=true)
+![ssh key gen](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/sshgen.png)
 
 Go to ssh key location (.ssh)
-![ssh key location](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshkeylocation.png?raw=true)
+![ssh key location](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/sshkeylocation.png)
 
 Copy pub key
-![copy key](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/copypubkey.png?raw=true)
+![copy key](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/copypubkey.png)
 
 ## 3. Integrating with GitHub
 Go to GitHub Settings > SSH and GPG keys > New SSH Key.
-![integrate github](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrateingithub.png?raw=true)
+![integrate github](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/integrateingithub.png)
 
 ## 4. Paste pub key & Add
-![paste key](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/pastepubkeyingithub.png?raw=true)
+![paste key](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/pastepubkeyingithub.png)
 
 ## 5. Integrated
-![integrated](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png?raw=true)
+![integrated](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/integrated.png)
 
 ## 6. Connect through Linux
-![connect](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png?raw=true)
+![connect](https://raw.githubusercontent.com/rajkumargdev/workshop_pics/main/integrated.png)
 
 **Done! ✅**
 
