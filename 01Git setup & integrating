@@ -7,31 +7,31 @@ To install Git on Ubuntu
 ```bash
 sudo apt update
 sudo apt install git -y
-https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/fig1.png
+![Git installation](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/fig1.png?raw=true)
 
 2. SSH Key Generation
 Generate a new SSH key to securely connect to GitHub without typing your password every time:
 ssh-keygen -t ed25519 -C "your_email@example.com"
-https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshgen.png
+![ssh key gen](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshgen.png?raw=true)
 
 go to sshkey location(location .ssh)
-https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshkeylocation.png
+![ssh key location](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/sshkeylocation.png?raw=true)
 
 copy pub key
-https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/copypubkey.png
+![copy key](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/copypubkey.png?raw=true)
 
 3. Integrating with GitHub
 Go to GitHub Settings > SSH and GPG keys > New SSH Key.
-https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrateingithub.png
+![integrate github](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrateingithub.png?raw=true)
 
 4.paste pub key & Add
-https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/pastepubkeyingithub.png
+![paste key](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/pastepubkeyingithub.png?raw=true)
 
 5. intergrated
-https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png
+![integrated](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png?raw=true)
 
 6.connect through linux
-https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png
+![connect](https://github.com/rajkumargdev/workshop_pics/blob/e2e505261d3c2f66d917355ea2341c4ae6ec7aa3/integrated.png?raw=true)
 
 done***
 
